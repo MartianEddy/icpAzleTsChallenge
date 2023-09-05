@@ -19,6 +19,20 @@ dfx start --background --clean
 dfx deploy
 ```
 
+## environment 
+There is no native support for dfx on Windows. However, by installing the Windows Subsystem for Linux (WSL), you can run dfx also on a Windows system as described below.
+
+ https://docs.microsoft.com/en-us/windows/wsl/install
+
+ 
+Installing WSL 2
+Follow Microsoft's instructions for installing the Windows Subsystem for Linux. Make sure you are running Windows 10 (version 2004 or higher) or Windows 11.
+
+## installing dfx CLI
+
+```
+sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
+```
 ## Use cases
 - Create 2 participants (and capture the ID of the second user from the response)
 ```
